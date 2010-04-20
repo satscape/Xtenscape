@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* XtenscapeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* XtenscapeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* RootViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		D20785000F11104D0073C524 /* x10-back1.png in Resources */ = {isa = PBXBuildFile; fileRef = D20784FD0F11104D0073C524 /* x10-back1.png */; };
+		D20785010F11104D0073C524 /* xtenscape-large-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D20784FE0F11104D0073C524 /* xtenscape-large-icon.jpg */; };
+		D20785020F11104D0073C524 /* xtenscape-small-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D20784FF0F11104D0073C524 /* xtenscape-small-icon.png */; };
+		D20D0B860EF6BA7600CB7C44 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20D0B850EF6BA7600CB7C44 /* HelpViewController.xib */; };
+		D20D0B880EF6BA9600CB7C44 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20D0B870EF6BA9600CB7C44 /* SettingsViewController.xib */; };
+		D20D0B940EF6BADA00CB7C44 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20D0B930EF6BADA00CB7C44 /* HelpViewController.m */; };
+		D20D0B990EF6BAE700CB7C44 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20D0B980EF6BAE700CB7C44 /* SettingsViewController.m */; };
+		D20D0BAF0EF6BE7600CB7C44 /* ControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20D0BAE0EF6BE7600CB7C44 /* ControlViewController.xib */; };
+		D20D0BB60EF6BEAD00CB7C44 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20D0BB50EF6BEAD00CB7C44 /* ControlViewController.m */; };
+		D290874F0F12568E00B7F1A8 /* libAdMobDevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D290874D0F12568E00B7F1A8 /* libAdMobDevice.a */; };
+		D29087500F12568E00B7F1A8 /* libAdMobSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D290874E0F12568E00B7F1A8 /* libAdMobSimulator.a */; };
+		D29087580F1257BE00B7F1A8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29087570F1257BE00B7F1A8 /* QuartzCore.framework */; };
+		D290875C0F1257DF00B7F1A8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D290875B0F1257DF00B7F1A8 /* CoreLocation.framework */; };
+		D29087F60F126C0500B7F1A8 /* AdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D29087F50F126C0500B7F1A8 /* AdViewController.m */; };
+		D2BE8B210F07F1F000BC16A3 /* scott.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BE8B200F07F1F000BC16A3 /* scott.m */; };
+		D2CA85010F0A9FC800444A99 /* scottCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CA85000F0A9FC800444A99 /* scottCell.m */; };
+		D2CA85050F0AA01500444A99 /* scottCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CA85040F0AA01500444A99 /* scottCell.xib */; };
+		D2CB6A010F0E84F9004F7BAB /* panelOff.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CB69FC0F0E84F9004F7BAB /* panelOff.png */; };
+		D2CB6A020F0E84F9004F7BAB /* panelOn.png in Resources */ = {isa = PBXBuildFile; fileRef = D2CB69FD0F0E84F9004F7BAB /* panelOn.png */; };
+		D2CB6A150F0E8AC0004F7BAB /* x10-bar-off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2CB6A130F0E8AC0004F7BAB /* x10-bar-off.jpg */; };
+		D2CB6A160F0E8AC0004F7BAB /* x10-bar-on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D2CB6A140F0E8AC0004F7BAB /* x10-bar-on.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* XtenscapeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XtenscapeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* XtenscapeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XtenscapeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Xtenscape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xtenscape.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* Xtenscape_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xtenscape_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D20784FD0F11104D0073C524 /* x10-back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x10-back1.png"; sourceTree = "<group>"; };
+		D20784FE0F11104D0073C524 /* xtenscape-large-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "xtenscape-large-icon.jpg"; sourceTree = "<group>"; };
+		D20784FF0F11104D0073C524 /* xtenscape-small-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xtenscape-small-icon.png"; sourceTree = "<group>"; };
+		D20D0B850EF6BA7600CB7C44 /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		D20D0B870EF6BA9600CB7C44 /* SettingsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		D20D0B920EF6BADA00CB7C44 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		D20D0B930EF6BADA00CB7C44 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		D20D0B970EF6BAE700CB7C44 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		D20D0B980EF6BAE700CB7C44 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		D20D0BAE0EF6BE7600CB7C44 /* ControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ControlViewController.xib; sourceTree = "<group>"; };
+		D20D0BB40EF6BEAD00CB7C44 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlViewController.h; sourceTree = "<group>"; };
+		D20D0BB50EF6BEAD00CB7C44 /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlViewController.m; sourceTree = "<group>"; };
+		D290874B0F12568E00B7F1A8 /* AdMobDelegateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobDelegateProtocol.h; sourceTree = "<group>"; };
+		D290874C0F12568E00B7F1A8 /* AdMobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdMobView.h; sourceTree = "<group>"; };
+		D290874D0F12568E00B7F1A8 /* libAdMobDevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobDevice.a; sourceTree = "<group>"; };
+		D290874E0F12568E00B7F1A8 /* libAdMobSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdMobSimulator.a; sourceTree = "<group>"; };
+		D29087570F1257BE00B7F1A8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D290875B0F1257DF00B7F1A8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D29087F40F126C0500B7F1A8 /* AdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewController.h; sourceTree = "<group>"; };
+		D29087F50F126C0500B7F1A8 /* AdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewController.m; sourceTree = "<group>"; };
+		D2BE8B1F0F07F1F000BC16A3 /* scott.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scott.h; sourceTree = "<group>"; };
+		D2BE8B200F07F1F000BC16A3 /* scott.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scott.m; sourceTree = "<group>"; };
+		D2CA84FF0F0A9FC800444A99 /* scottCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scottCell.h; sourceTree = "<group>"; };
+		D2CA85000F0A9FC800444A99 /* scottCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scottCell.m; sourceTree = "<group>"; };
+		D2CA85040F0AA01500444A99 /* scottCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = scottCell.xib; path = Classes/scottCell.xib; sourceTree = "<group>"; };
+		D2CB69FC0F0E84F9004F7BAB /* panelOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panelOff.png; sourceTree = "<group>"; };
+		D2CB69FD0F0E84F9004F7BAB /* panelOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panelOn.png; sourceTree = "<group>"; };
+		D2CB6A130F0E8AC0004F7BAB /* x10-bar-off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "x10-bar-off.jpg"; sourceTree = "<group>"; };
+		D2CB6A140F0E8AC0004F7BAB /* x10-bar-on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "x10-bar-on.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				D290874F0F12568E00B7F1A8 /* libAdMobDevice.a in Frameworks */,
+				D29087500F12568E00B7F1A8 /* libAdMobSimulator.a in Frameworks */,
+				D29087580F1257BE00B7F1A8 /* QuartzCore.framework in Frameworks */,
+				D290875C0F1257DF00B7F1A8 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D20D0B970EF6BAE700CB7C44 /* SettingsViewController.h */,
+				D20D0B980EF6BAE700CB7C44 /* SettingsViewController.m */,
+				D20D0B920EF6BADA00CB7C44 /* HelpViewController.h */,
+				D20D0B930EF6BADA00CB7C44 /* HelpViewController.m */,
+				D20D0BB40EF6BEAD00CB7C44 /* ControlViewController.h */,
+				D20D0BB50EF6BEAD00CB7C44 /* ControlViewController.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* XtenscapeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* XtenscapeAppDelegate.m */,
+				D2BE8B1F0F07F1F000BC16A3 /* scott.h */,
+				D2BE8B200F07F1F000BC16A3 /* scott.m */,
+				D2CA84FF0F0A9FC800444A99 /* scottCell.h */,
+				D2CA85000F0A9FC800444A99 /* scottCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Xtenscape.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* Xtenscape_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D29087F40F126C0500B7F1A8 /* AdViewController.h */,
+				D29087F50F126C0500B7F1A8 /* AdViewController.m */,
+				D290874B0F12568E00B7F1A8 /* AdMobDelegateProtocol.h */,
+				D290874C0F12568E00B7F1A8 /* AdMobView.h */,
+				D290874D0F12568E00B7F1A8 /* libAdMobDevice.a */,
+				D290874E0F12568E00B7F1A8 /* libAdMobSimulator.a */,
+				D2CB69FB0F0E84DF004F7BAB /* images */,
+				D2CB69FA0F0E84D1004F7BAB /* xibs */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D290875B0F1257DF00B7F1A8 /* CoreLocation.framework */,
+				D29087570F1257BE00B7F1A8 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2CB69FA0F0E84D1004F7BAB /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				2899E55F0DE3E45000AC0155 /* RootViewController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				D20D0B850EF6BA7600CB7C44 /* HelpViewController.xib */,
+				D20D0B870EF6BA9600CB7C44 /* SettingsViewController.xib */,
+				D20D0BAE0EF6BE7600CB7C44 /* ControlViewController.xib */,
+				D2CA85040F0AA01500444A99 /* scottCell.xib */,
+			);
+			name = xibs;
+			sourceTree = "<group>";
+		};
+		D2CB69FB0F0E84DF004F7BAB /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D20784FD0F11104D0073C524 /* x10-back1.png */,
+				D20784FE0F11104D0073C524 /* xtenscape-large-icon.jpg */,
+				D20784FF0F11104D0073C524 /* xtenscape-small-icon.png */,
+				D2CB6A130F0E8AC0004F7BAB /* x10-bar-off.jpg */,
+				D2CB6A140F0E8AC0004F7BAB /* x10-bar-on.jpg */,
+				D2CB69FC0F0E84F9004F7BAB /* panelOff.png */,
+				D2CB69FD0F0E84F9004F7BAB /* panelOn.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Xtenscape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Xtenscape" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xtenscape;
+			productName = Xtenscape;
+			productReference = 1D6058910D05DD3D006BFB54 /* Xtenscape.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Xtenscape" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Xtenscape */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* RootViewController.xib in Resources */,
+				D20D0B860EF6BA7600CB7C44 /* HelpViewController.xib in Resources */,
+				D20D0B880EF6BA9600CB7C44 /* SettingsViewController.xib in Resources */,
+				D20D0BAF0EF6BE7600CB7C44 /* ControlViewController.xib in Resources */,
+				D2CA85050F0AA01500444A99 /* scottCell.xib in Resources */,
+				D2CB6A010F0E84F9004F7BAB /* panelOff.png in Resources */,
+				D2CB6A020F0E84F9004F7BAB /* panelOn.png in Resources */,
+				D2CB6A150F0E8AC0004F7BAB /* x10-bar-off.jpg in Resources */,
+				D2CB6A160F0E8AC0004F7BAB /* x10-bar-on.jpg in Resources */,
+				D20785000F11104D0073C524 /* x10-back1.png in Resources */,
+				D20785010F11104D0073C524 /* xtenscape-large-icon.jpg in Resources */,
+				D20785020F11104D0073C524 /* xtenscape-small-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* XtenscapeAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				D20D0B940EF6BADA00CB7C44 /* HelpViewController.m in Sources */,
+				D20D0B990EF6BAE700CB7C44 /* SettingsViewController.m in Sources */,
+				D20D0BB60EF6BEAD00CB7C44 /* ControlViewController.m in Sources */,
+				D2BE8B210F07F1F000BC16A3 /* scott.m in Sources */,
+				D2CA85010F0A9FC800444A99 /* scottCell.m in Sources */,
+				D29087F60F126C0500B7F1A8 /* AdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Hather";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Xtenscape_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Xtenscape;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C20BD290-F6E3-4631-815A-1B258980F2D9";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Scott Hather";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Xtenscape_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Xtenscape;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C20BD290-F6E3-4631-815A-1B258980F2D9";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1;
+			};
+			name = Release;
+		};
+		D22132250F136613000D6ACC /* Distrubution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Jailbreak;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"New Setting" = "PROVISIONING_PROFILE_ALLOWED NO";
+				"New Setting1" = "PROVISIONING_PROFILE_REQUIRED NO";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1;
+			};
+			name = Distrubution;
+		};
+		D22132260F136613000D6ACC /* Distrubution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = Jailbreak;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Xtenscape_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = Xtenscape;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distrubution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Xtenscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				D22132260F136613000D6ACC /* Distrubution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Xtenscape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				D22132250F136613000D6ACC /* Distrubution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

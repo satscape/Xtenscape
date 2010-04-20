@@ -1,0 +1,137 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Xtenscape */ = {
+		activeExec = 0;
+		executables = (
+			87F8C3A30F02AF080091F51D /* Xtenscape */,
+		);
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {875, 3542}}";
+			sepNavSelRange = "{663, 0}";
+			sepNavVisRange = "{475, 864}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 87F8C3A30F02AF080091F51D /* Xtenscape */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Xtenscape */;
+		breakpoints = (
+			87F8C3C20F02AF540091F51D /* RootViewController.m:33 */,
+		);
+		codeSenseManager = 87F8C3C00F02AF1C0091F51D /* Code sense */;
+		executables = (
+			87F8C3A30F02AF080091F51D /* Xtenscape */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					697,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 252087268;
+			PBXWorkspaceStateSaveDate = 252087268;
+		};
+		perUserProjectItems = {
+			8773A1620F0691BC00726727 /* PBXTextBookmark */ = 8773A1620F0691BC00726727 /* PBXTextBookmark */;
+			87F8C3D20F02B4430091F51D /* PBXTextBookmark */ = 87F8C3D20F02B4430091F51D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 87F8C3BF0F02AF1C0091F51D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8773A1620F0691BC00726727 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 33";
+		rLen = 0;
+		rLoc = 663;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 475;
+	};
+	87F8C3A30F02AF080091F51D /* Xtenscape */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Xtenscape;
+		savedGlobals = {
+		};
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	87F8C3BF0F02AF1C0091F51D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	87F8C3C00F02AF1C0091F51D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	87F8C3C20F02AF540091F51D /* RootViewController.m:33 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "+sendCommand:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 33;
+		location = Xtenscape;
+		modificationTime = 251834418.537482;
+		state = 2;
+	};
+	87F8C3D20F02B4430091F51D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 33";
+		rLen = 0;
+		rLoc = 663;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 475;
+	};
+}
