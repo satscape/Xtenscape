@@ -1,7 +1,6 @@
-Xtenscape is a java application to control X-10 Home automation devices. This app is NOT open source and can be 
-downloaded at www.satscape.co.uk (free!)
+Xtenscape is a java application to control X-10 Home automation devices. It is no longer under development.
 
-Xtenscape-for-iPhone is open source and can be found here. The app was originally on the Apple App store, but I withdrew 
+Xtenscape-for-iPhone (this stuff) is open source and can be found here. The app was originally on the Apple App store, but I withdrew 
 it as I don't really like iPhone developing, and didn't want to pay apple $99 per year for writing apps for their 
 devices :-)
 
@@ -20,9 +19,6 @@ Finally, I'm not playing with this source code any more, I'm simply publishing i
 with it. I'll try to answer any questions you have, but basically heres the source code, you're on you're own. Have fun!
 
 
-Oh, if you do make an app using this source code, whether its for iPhone or any other platform, do let me know and I'll 
-provide a link on my Xtenscape page.
-
 Cheers,
 Scott Hather
-Author of Satscape, Xtenscape, and Twizzlescape.
+
